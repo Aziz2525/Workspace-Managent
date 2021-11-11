@@ -54,18 +54,19 @@ function Sidenav() {
 
             <div className="flex flex-col justify-between flex-1 mt-6">
                 <nav>
-                    <a
+                    <Link
+                    to="/"
                         className="
             flex
             items-center
             px-4
             py-2
             text-gray-700
-            bg-gray-200
+            hover:bg-gray-200
             rounded-md
             dark:bg-gray-700 dark:text-gray-200
           "
-                        href="#"
+                        
                     >
                         <svg
                             className="w-5 h-5"
@@ -83,7 +84,7 @@ function Sidenav() {
                         </svg>
 
                         <span className="mx-4 font-medium">Anasayfa</span>
-                    </a>
+                    </Link>
 
 
 
